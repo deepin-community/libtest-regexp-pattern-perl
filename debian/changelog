@@ -1,0 +1,75 @@
+libtest-regexp-pattern-perl (0.009-2) unstable; urgency=medium
+
+  * declare compliance with Debian Policy 4.6.0
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 29 Aug 2021 07:02:57 +0200
+
+libtest-regexp-pattern-perl (0.009-1) experimental; urgency=medium
+
+  [ upstream ]
+  * new release(s)
+
+  [ Jonas Smedegaard ]
+  * declare compliance with Debian Policy 4.5.1
+  * relax to (buil-)depend unversioned on libregexp-pattern-perl:
+    satisfied in all Debian releases where available at all
+  * copyright info: update coverage
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 24 Jul 2021 09:36:03 +0200
+
+libtest-regexp-pattern-perl (0.006-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add missing runtime dependency on libhash-defhash-perl.
+    Thanks to autopkgtest-pkg-perl and ci.debian.net.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 28 Jul 2020 17:27:50 +0200
+
+libtest-regexp-pattern-perl (0.006-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release
+
+  [ Debian Janitor ]
+  * build-depend on debhelper-compat (not debhelper)
+  * set upstream metadata fields:
+    Bug-Database Repository Repository-Browse
+
+  [ Étienne Mollier ]
+  * use debhelper-compatibility level 13 (not 9)
+  * declare compliance with Debian Policy 4.5.0
+  * build-depend on libhash-defhash-perl
+
+  [ Jonas Smedegaard ]
+  * simplify source script copyright-check
+  * copyright: extend coverage
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 25 Jul 2020 00:41:45 +0200
+
+libtest-regexp-pattern-perl (0.005-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add libregexp-pattern-perl to Depends.
+    Thanks to ci.debian.net.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 05 Jan 2020 20:16:46 +0100
+
+libtest-regexp-pattern-perl (0.005-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release
+
+  [ Jonas Smedegaard ]
+  * Update watch file:
+    + Simplify version regex.
+    + Rewrite usage comment.
+  * declare compliance with Debian Policy 4.4.1
+  * enable testsuite
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 04 Jan 2020 23:22:54 +0100
+
+libtest-regexp-pattern-perl (0.004-1) unstable; urgency=low
+
+  * Initial packaging release.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 04 Nov 2018 03:51:19 +0100

@@ -1,0 +1,36 @@
+Source: libtest-regexp-pattern-perl
+Section: perl
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13),
+ libhash-defhash-perl <!nocheck>,
+ libregexp-pattern-perl <!nocheck>,
+ perl,
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Jonas Smedegaard <dr@jones.dk>,
+Standards-Version: 4.6.0
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-regexp-pattern-perl.git
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-regexp-pattern-perl
+Homepage: https://metacpan.org/pod/Test::Regexp::Pattern
+Rules-Requires-Root: no
+Testsuite: autopkgtest-pkg-perl
+
+Package: libtest-regexp-pattern-perl
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${perl:Depends},
+ libhash-defhash-perl,
+ libregexp-pattern-perl,
+Description: test Regexp::Pattern patterns
+ Test::Regexp::Pattern performs various checks
+ on a module's Regexp::Pattern patterns.
+ It is recommended that you include
+ something like release-regexp-pattern.t in your distribution
+ if you add regexp patterns to your code.
+ If you use Dist::Zilla to build your distribution,
+ there is Test::Regexp::Pattern to make it easy to do so.
+ .
+ Regexp::Pattern is a convention
+ for organizing reusable regexp patterns in modules.
